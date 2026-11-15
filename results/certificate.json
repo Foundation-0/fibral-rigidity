@@ -1,0 +1,268 @@
+{
+  "certificate_version": "1.0.0",
+  "cfrp_material_benchmarks": {
+    "benchmark_relative_density": 0.05,
+    "cfrp_truss_benchmarks": [
+      {
+        "E1_CFRP_Vf60_GPa": 139.4,
+        "Ef_GPa": 230.0,
+        "at_5pct_relative_density": {
+          "E100_graded_incentre_GPa": 1.069885,
+          "E_isotropic_braced_GPa": 0.892519,
+          "K_graded_incentre_GPa": 0.774444,
+          "K_isotropic_braced_GPa": 0.759088,
+          "exceeds_all_metal_HS_specific_E_bounds": false,
+          "exceeds_all_metal_HS_specific_K_bounds": true,
+          "rho_eff_g_cm3": 0.0768,
+          "specific_E100_graded_MPa_per_kg_m3": 13.9308,
+          "specific_E_isotropic_braced_MPa_per_kg_m3": 11.6213,
+          "specific_K_graded_MPa_per_kg_m3": 10.0839
+        },
+        "buckling_vs_tensile_envelope": {
+          "hollow_tube_eta08_buckling_gain": 4.555556,
+          "hollow_tube_eta08_critical_rho_bar": 0.006245,
+          "solid_rod_critical_r_over_L": 0.078868,
+          "solid_rod_critical_rho_bar": 0.028449
+        },
+        "fiber_id": "T300",
+        "rho_CFRP_Vf60_g_cm3": 1.536,
+        "sigma_tensile_CFRP_Vf60_MPa": 2139.49
+      },
+      {
+        "E1_CFRP_Vf60_GPa": 139.4,
+        "Ef_GPa": 230.0,
+        "at_5pct_relative_density": {
+          "E100_graded_incentre_GPa": 1.069885,
+          "E_isotropic_braced_GPa": 0.892519,
+          "K_graded_incentre_GPa": 0.774444,
+          "K_isotropic_braced_GPa": 0.759088,
+          "exceeds_all_metal_HS_specific_E_bounds": false,
+          "exceeds_all_metal_HS_specific_K_bounds": true,
+          "rho_eff_g_cm3": 0.078,
+          "specific_E100_graded_MPa_per_kg_m3": 13.7165,
+          "specific_E_isotropic_braced_MPa_per_kg_m3": 11.4426,
+          "specific_K_graded_MPa_per_kg_m3": 9.9288
+        },
+        "buckling_vs_tensile_envelope": {
+          "hollow_tube_eta08_buckling_gain": 4.555556,
+          "hollow_tube_eta08_critical_rho_bar": 0.008669,
+          "solid_rod_critical_r_over_L": 0.092921,
+          "solid_rod_critical_rho_bar": 0.039491
+        },
+        "fiber_id": "T700S",
+        "rho_CFRP_Vf60_g_cm3": 1.56,
+        "sigma_tensile_CFRP_Vf60_MPa": 2969.83
+      },
+      {
+        "E1_CFRP_Vf60_GPa": 195.8,
+        "Ef_GPa": 324.0,
+        "at_5pct_relative_density": {
+          "E100_graded_incentre_GPa": 1.502751,
+          "E_isotropic_braced_GPa": 1.253624,
+          "K_graded_incentre_GPa": 1.087778,
+          "K_isotropic_braced_GPa": 1.066208,
+          "exceeds_all_metal_HS_specific_E_bounds": true,
+          "exceeds_all_metal_HS_specific_K_bounds": true,
+          "rho_eff_g_cm3": 0.0777,
+          "specific_E100_graded_MPa_per_kg_m3": 19.3404,
+          "specific_E_isotropic_braced_MPa_per_kg_m3": 16.1342,
+          "specific_K_graded_MPa_per_kg_m3": 13.9997
+        },
+        "buckling_vs_tensile_envelope": {
+          "hollow_tube_eta08_buckling_gain": 4.555556,
+          "hollow_tube_eta08_critical_rho_bar": 0.008791,
+          "solid_rod_critical_r_over_L": 0.093574,
+          "solid_rod_critical_rho_bar": 0.040048
+        },
+        "fiber_id": "T1100G",
+        "rho_CFRP_Vf60_g_cm3": 1.554,
+        "sigma_tensile_CFRP_Vf60_MPa": 4230.25
+      },
+      {
+        "E1_CFRP_Vf60_GPa": 325.4,
+        "Ef_GPa": 540.0,
+        "at_5pct_relative_density": {
+          "E100_graded_incentre_GPa": 2.497422,
+          "E_isotropic_braced_GPa": 2.083398,
+          "K_graded_incentre_GPa": 1.807778,
+          "K_isotropic_braced_GPa": 1.771932,
+          "exceeds_all_metal_HS_specific_E_bounds": true,
+          "exceeds_all_metal_HS_specific_K_bounds": true,
+          "rho_eff_g_cm3": 0.0813,
+          "specific_E100_graded_MPa_per_kg_m3": 30.7186,
+          "specific_E_isotropic_braced_MPa_per_kg_m3": 25.6261,
+          "specific_K_graded_MPa_per_kg_m3": 22.2359
+        },
+        "buckling_vs_tensile_envelope": {
+          "hollow_tube_eta08_buckling_gain": 4.555556,
+          "hollow_tube_eta08_critical_rho_bar": 0.003029,
+          "solid_rod_critical_r_over_L": 0.054928,
+          "solid_rod_critical_rho_bar": 0.013799
+        },
+        "fiber_id": "M55J",
+        "rho_CFRP_Vf60_g_cm3": 1.626,
+        "sigma_tensile_CFRP_Vf60_MPa": 2422.42
+      },
+      {
+        "E1_CFRP_Vf60_GPa": 562.4,
+        "Ef_GPa": 935.0,
+        "at_5pct_relative_density": {
+          "E100_graded_incentre_GPa": 4.31638,
+          "E_isotropic_braced_GPa": 3.600808,
+          "K_graded_incentre_GPa": 3.124444,
+          "K_isotropic_braced_GPa": 3.06249,
+          "exceeds_all_metal_HS_specific_E_bounds": true,
+          "exceeds_all_metal_HS_specific_K_bounds": true,
+          "rho_eff_g_cm3": 0.09,
+          "specific_E100_graded_MPa_per_kg_m3": 47.9598,
+          "specific_E_isotropic_braced_MPa_per_kg_m3": 40.009,
+          "specific_K_graded_MPa_per_kg_m3": 34.716
+        },
+        "buckling_vs_tensile_envelope": {
+          "hollow_tube_eta08_buckling_gain": 4.555556,
+          "hollow_tube_eta08_critical_rho_bar": 0.00161,
+          "solid_rod_critical_r_over_L": 0.040047,
+          "solid_rod_critical_rho_bar": 0.007335
+        },
+        "fiber_id": "K13D2U",
+        "rho_CFRP_Vf60_g_cm3": 1.8,
+        "sigma_tensile_CFRP_Vf60_MPa": 2225.54
+      }
+    ],
+    "reference_metal_HS_upper_bounds": [
+      {
+        "E_HS_GPa": 1.766144,
+        "K_HS_GPa": 1.181717,
+        "id": "Al_6061_T6",
+        "rho_lattice_g_cm3": 0.135,
+        "specific_E_HS_MPa_per_kg_m3": 13.0825,
+        "specific_K_HS_MPa_per_kg_m3": 8.7535
+      },
+      {
+        "E_HS_GPa": 2.919827,
+        "K_HS_GPa": 1.982924,
+        "id": "Ti_6Al_4V",
+        "rho_lattice_g_cm3": 0.2215,
+        "specific_E_HS_MPa_per_kg_m3": 13.1821,
+        "specific_K_HS_MPa_per_kg_m3": 8.9523
+      },
+      {
+        "E_HS_GPa": 5.242949,
+        "K_HS_GPa": 3.308319,
+        "id": "Steel_4340",
+        "rho_lattice_g_cm3": 0.3925,
+        "specific_E_HS_MPa_per_kg_m3": 13.3578,
+        "specific_K_HS_MPa_per_kg_m3": 8.4288
+      }
+    ]
+  },
+  "inputs": {
+    "data/carbon_fibers.json_sha256": "eb9b2f1d9bfee27eaa8fe94f7f4187b8f5795a5f3b300ff232408d10ce657019"
+  },
+  "must_fail_controls": [
+    {
+      "control": "equal_area_saturates_bulk_bound",
+      "observed_K_over_Kmax": 0.77712362,
+      "rejected": true
+    },
+    {
+      "control": "unbraced_incentre_has_shear_rigidity",
+      "observed_C44": 4.163e-17,
+      "rejected": true
+    },
+    {
+      "control": "pin_jointed_truss_exceeds_cauchy_maxwell_bulk_bound",
+      "rejected": true
+    },
+    {
+      "control": "isotropic_truss_exceeds_same_material_HS_plate_bound",
+      "hs_plate_E_over_rhoEs_at_5pct": 0.5114663,
+      "rejected": true,
+      "truss_E_over_rhoE1": 0.12805151
+    },
+    {
+      "C11_after_cut": 0.0,
+      "C22_after_cut": 0.2514805794,
+      "control": "cut_cross_bar_preserves_axial_stiffness",
+      "rejected": true
+    },
+    {
+      "control": "unit_spring_poisson_holds_for_equal_area_bars_at_general_t",
+      "nu_100_at_t035_equal_area": 0.1211711,
+      "rejected": true,
+      "unit_spring_nu_100": 0.2
+    }
+  ],
+  "numerical_homogenization": {
+    "braced_3d_profiles": [
+      {
+        "C11_over_rhoE1": 0.1860111312,
+        "C12_over_rhoE1": 0.0733127812,
+        "C44_over_rhoE1": 0.0198285645,
+        "E100_over_rhoE1": 0.1445590041,
+        "E111_over_rhoE1": 0.0561392192,
+        "K_over_rhoE1": 0.1108788979,
+        "beta_diag_over_intra": 0.1,
+        "zener_anisotropy": 0.3518873966
+      },
+      {
+        "C11_over_rhoE1": 0.1789110604,
+        "C12_over_rhoE1": 0.0754206248,
+        "C44_over_rhoE1": 0.0394489107,
+        "E100_over_rhoE1": 0.1341799397,
+        "E111_over_rhoE1": 0.1057014606,
+        "K_over_rhoE1": 0.1099174367,
+        "beta_diag_over_intra": 0.25,
+        "zener_anisotropy": 0.7623682419
+      },
+      {
+        "C11_over_rhoE1": 0.1694479198,
+        "C12_over_rhoE1": 0.076488303,
+        "C44_over_rhoE1": 0.0571909584,
+        "E100_over_rhoE1": 0.1218708657,
+        "E111_over_rhoE1": 0.1457245693,
+        "K_over_rhoE1": 0.1074748419,
+        "beta_diag_over_intra": 0.5,
+        "zener_anisotropy": 1.2304473783
+      }
+    ],
+    "coordinate_homogenization_cases_checked": 60,
+    "isotropic_braced_point": {
+      "E_iso_over_rhoE1": 0.128051509,
+      "G_iso_over_rhoE1": 0.0490981109,
+      "K_iso_over_rhoE1": 0.1089079102,
+      "alpha_cross_over_intra": 2.8284271247,
+      "beta_diag_over_intra": 0.3623231811,
+      "gurtner_durand_isotropic_truss_bound_E_over_rhoE1": 0.1666666667,
+      "nu_iso": 0.3040370243
+    },
+    "max_numerical_analytical_discrepancy": 1.11e-16
+  },
+  "repository": "Foundation-0/fibral-rigidity",
+  "symbolic_verification": {
+    "C11_over_C12_formula": "(n - 1) * (1 + (n - 2) / lambda)",
+    "incentre_equal_area_E100_over_rhoE1": 0.155424723327,
+    "incentre_equal_area_K_over_Kmax_exact": "2*(3 + 2*sqrt(2))/15",
+    "incentre_equal_area_K_over_Kmax_value": 0.777123616633,
+    "incentre_equal_area_relaxation_loss_pct": 22.28763834,
+    "incentre_max_E100_over_rhoE1_exact": "(3 + 2*sqrt(2)) / (3*(7 + 2*sqrt(6)))",
+    "incentre_max_E100_over_rhoE1_value": 0.16327526608,
+    "incentre_optK_E100_over_rhoE1": 0.153498571073,
+    "nu_100_at_bulk_optimum_3d_exact": "(6 - sqrt(2)) / 17",
+    "nu_100_at_bulk_optimum_3d_value": 0.26975214339,
+    "nu_100_formula": "lambda / ((n - 1)*(n - 2) + (2*n - 3)*lambda)",
+    "nu_100_supremum_3d": "1/3",
+    "optimal_E100_area_ratio_3d_exact": "2*sqrt(6)/3",
+    "optimal_E100_area_ratio_3d_value": 1.632993161855,
+    "optimal_bulk_area_ratio_3d": 2.828427124746,
+    "optimal_bulk_area_ratio_formula": "sqrt(2) * (n - 1)",
+    "symbolic_dimensions_checked": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}
