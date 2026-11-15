@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Primary-sourced carbon fiber filament properties, unidirectional CFRP composite micromechanics parameters (Vf = 0.60 in structural epoxy matrix), and reference structural alloys.",
+  "matrix_reference": {
+    "name": "Aerospace toughened epoxy resin (typical)",
+    "E_GPa": 3.5,
+    "rho_g_cm3": 1.20,
+    "fiber_volume_fraction_Vf": 0.60,
+    "note": "Unidirectional axial modulus computed by longitudinal rule of mixtures E1 = Vf * Ef + (1 - Vf) * Em; composite density rho_c = Vf * rho_f + (1 - Vf) * rho_m."
+  },
+  "carbon_fibers": [
+    {
+      "id": "T300",
+      "manufacturer": "Toray",
+      "series": "Standard Modulus PAN",
+      "Ef_GPa": 230.0,
+      "sigma_ult_MPa": 3530.0,
+      "strain_ult_pct": 1.5,
+      "rho_f_g_cm3": 1.76,
+      "sources": [
+        "https://www.toraycma.com/products/carbon-fiber/",
+        "https://www.toraycma.com/wp-content/uploads/T300-Data-Sheet.pdf"
+      ]
+    },
+    {
+      "id": "T700S",
+      "manufacturer": "Toray",
+      "series": "Standard Modulus / High Strength PAN",
+      "Ef_GPa": 230.0,
+      "sigma_ult_MPa": 4900.0,
+      "strain_ult_pct": 2.1,
+      "rho_f_g_cm3": 1.80,
+      "sources": [
+        "https://www.toraycma.com/products/carbon-fiber/",
+        "https://www.toraycma.com/wp-content/uploads/Torayca-Technical-Manual_4-28-2020.pdf"
+      ]
+    },
+    {
+      "id": "T1100G",
+      "manufacturer": "Toray",
+      "series": "Intermediate Modulus / Ultra-High Tensile Strength PAN",
+      "Ef_GPa": 324.0,
+      "sigma_ult_MPa": 7000.0,
+      "strain_ult_pct": 2.0,
+      "rho_f_g_cm3": 1.79,
+      "sources": [
+        "https://www.toraycma.com/products/carbon-fiber/",
+        "https://www.toraycma.com/wp-content/uploads/T1100G-Data-Sheet.pdf"
+      ]
+    },
+    {
+      "id": "M55J",
+      "manufacturer": "Toray",
+      "series": "High Modulus PAN (MJ Series)",
+      "Ef_GPa": 540.0,
+      "sigma_ult_MPa": 4020.0,
+      "strain_ult_pct": 0.8,
+      "rho_f_g_cm3": 1.91,
+      "sources": [
+        "https://www.toraycma.com/products/carbon-fiber/",
+        "https://www.toraycma.com/wp-content/uploads/Torayca-Technical-Manual_4-28-2020.pdf"
+      ]
+    },
+    {
+      "id": "K13D2U",
+      "manufacturer": "Mitsubishi Chemical (DIALEAD)",
+      "series": "Ultra-High Modulus Coal-Tar Pitch",
+      "Ef_GPa": 935.0,
+      "sigma_ult_MPa": 3700.0,
+      "strain_ult_pct": 0.4,
+      "rho_f_g_cm3": 2.20,
+      "sources": [
+        "https://www.m-chemical.co.jp/carbon-fiber/en/product/tow/",
+        "https://www.hajime.com.tw/Upload/product_201805210812374.pdf"
+      ]
+    }
+  ],
+  "reference_isotropic_solids": [
+    {
+      "id": "Al_6061_T6",
+      "name": "Aluminum 6061-T6",
+      "Es_GPa": 68.9,
+      "nu_s": 0.33,
+      "sigma_y_MPa": 276.0,
+      "rho_s_g_cm3": 2.70
+    },
+    {
+      "id": "Ti_6Al_4V",
+      "name": "Titanium Ti-6Al-4V",
+      "Es_GPa": 113.8,
+      "nu_s": 0.34,
+      "sigma_y_MPa": 880.0,
+      "rho_s_g_cm3": 4.43
+    },
+    {
+      "id": "Steel_4340",
+      "name": "Structural Alloy Steel AISI 4340",
+      "Es_GPa": 205.0,
+      "nu_s": 0.29,
+      "sigma_y_MPa": 1110.0,
+      "rho_s_g_cm3": 7.85
+    }
+  ]
+}
